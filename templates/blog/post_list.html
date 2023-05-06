@@ -21,7 +21,8 @@
             <div class="row">
                 <div class="col">
                     {% block content %}
-                        {% for post in posts %}
+                    <a href='{% url 'post_new' %}'><button><b>Add_New</b></button></a>
+                    {% for post in posts %}
                             <article class="post">
                                 <time class="date">
                                     {{ post.published_date }}

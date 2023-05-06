@@ -1,5 +1,16 @@
+h1 a, h2 a {
+    color:hsl(60, 66%, 76%);
+    font-family :'Times New Roman',Times,Serif;
+
+}
+
+body{
+    padding-left: 1px;
+
+}
+
 .page-header {
-    background-color: #C25100;
+    background-color: #f2b81a;
     margin-top: 0;
     margin-bottom: 40px;
     padding: 20px 20px 20px 40px;
@@ -9,7 +20,7 @@
 .page-header h1 a,
 .page-header h1 a:visited,
 .page-header h1 a:active {
-    color: #ffffff;
+    color: #151101;
     font-size: 36pt;
     text-decoration: none;
 }
@@ -68,4 +79,5 @@ h4 {
     color: #FFFFFF;
     background-color: #C25100;
 }
+
 

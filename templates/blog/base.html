@@ -11,9 +11,11 @@
         <body>
             <header class="page-header">
               <div class="container">
+                 <h1>Django Girls</h1>
+
                 {% if user.is_authenticated %} 
                     <a href="{% url 'post_new' %}" class="top-menu"7>
-                        <img src="{% static 'blog/img/images.png' %}" alt="Add file">
+                        <img src="{% static 'blog/img/img.webp' %}" alt="Add file">
                     </a>  
                 {% endif %}
               </div>
